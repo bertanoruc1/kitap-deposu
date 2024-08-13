@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitap Yönetim Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kitap Yönetimi</h1>
+
+        <form id="bookForm">
+            <input type="text" id="title" placeholder="Kitap Başlığı" required>
+            <input type="text" id="author" placeholder="Yazar" required>
+            <input type="number" id="published" placeholder="Yayınlanma Yılı" required>
+            <button type="submit">Kitap Kayıt</button>
+        </form>
+
+        <ul id="bookList">
+            <!-- Kitaplar burada listelenecek -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
